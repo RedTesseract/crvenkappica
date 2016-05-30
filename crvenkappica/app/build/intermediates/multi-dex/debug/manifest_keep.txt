@@ -1,0 +1,16 @@
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class hr.foi.air.crvenkappica.Login { <init>(); }
+-keep class hr.foi.air.crvenkappica.MainActivity { <init>(); }
+-keep class hr.foi.air.crvenkappica.Registracija { <init>(); }
+-keep class hr.foi.air.crvenkappica.Navigacija { <init>(); }
+-keep class hr.foi.air.crvenkappica.WebViewActivity { <init>(); }
+-keep class hr.foi.air.crvenkappica.Album2 { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

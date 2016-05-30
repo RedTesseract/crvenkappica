@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hr.foi.air.crvenkappica"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <activity
+            android:name="hr.foi.air.crvenkappica.Login"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="hr.foi.air.crvenkappica.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="hr.foi.air.crvenkappica.Registracija"
+            android:label="@string/title_activity_activity__registration"
+            android:theme="@android:style/Theme.Holo.Light" />
+        <activity
+            android:name="hr.foi.air.crvenkappica.Navigacija"
+            android:label="@string/title_activity_navigacija"
+            android:theme="@style/Base.Theme.AppCompat.Light" />
+        <activity android:name="hr.foi.air.crvenkappica.WebViewActivity" />
+        <activity
+            android:name="hr.foi.air.crvenkappica.Album2"
+            android:label="@string/title_activity_album2"
+            android:theme="@style/Base.Theme.AppCompat.Light" />
+    </application>
+
+</manifest>

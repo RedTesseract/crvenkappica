@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">crvenkappica</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name:</string>
+    <string name="surname">Last name:</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="password_rp">Repeat password:</string>
+    <string name="mail">Email address:</string>
+    <string name="date">DOB:</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="surname_hint">Enter your last name</string>
+    <string name="username_hint">Enter desired username</string>
+    <string name="password_hint">Enter desired password</string>
+    <string name="password_rp_hint">Repeat password</string>
+    <string name="mail_hint">Enter Your email address</string>
+    <string name="date_hint">Date of birth</string>
+    <string name="title_activity_activity__registration">Registration</string>
+    <string name="title_activity_login">Login</string>
+    <string name="strUser">Username</string>
+    <string name="strPass">Password</string>
+    <string name="strLogin">Login</string>
+    <string name="strRegister">Register here</string>
+    <string name="title_activity_logon">Logon</string>
+    <string name="string_registerme">Register me</string>
+    <string name="string_registration_progress">Registration in progress...</string>
+    <string name="title_activity_index">Index</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_navigacija">Navigacija</string>
+
+    <string name="title_section1">Obavijesti</string>
+    <string name="title_section2">Profil</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="title_activity_jedigovna">JEdigovna</string>
+    <string name="camerainit">Choose a picture from:</string>
+    <string name="title_activity_activity_album">activity_album</string>
+    <string name="title_activity_album">Album</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_album2">Album2</string>
+
+</resources>
